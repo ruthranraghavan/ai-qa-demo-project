@@ -76,3 +76,5 @@ document.addEventListener('DOMContentLoaded', () => {
         updateCartUI();
     });
 });
+
+// AI analysis trigger comment
