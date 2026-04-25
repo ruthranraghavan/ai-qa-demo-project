@@ -1,0 +1,14 @@
+{
+  "name": "ecommerce-demo-playwright",
+  "version": "1.0.0",
+  "description": "A demo e-commerce app with Playwright tests and GitHub Actions",
+  "main": "app.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ci": "npx playwright test --reporter=list",
+    "start": "npx playwright install && echo 'App running locally - open index.html'"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.1"
+  }
+}
