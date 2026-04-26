@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // VALIDATION BUG: Hardcoded credentials, but it doesn't actually check the password correctly
         // It accepts any password if the username is 'admin'
-        if (username === 'test_user' && password === 'wrong_password') {
+        if (username === 'test_user' && password === 'password123') {
             onLoginSuccess(username);
         } else if (username === 'admin') {
             // Intentionally allowing any password for admin as a "bug" or "feature"
